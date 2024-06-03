@@ -1,0 +1,70 @@
+projeto/
+├── app.py
+├── auditorias.db
+├── templates/
+│   ├── base.html
+│   ├── index.html
+│   ├── login.html
+│   ├── configuracao/
+│   │   ├── cadastro_instituicao.html
+│   │   ├── adicionar_unidade.html
+│   │   ├── editar_unidade.html
+│   │   ├── listar_unidades.html
+│   │   ├── adicionar_departamento.html
+│   │   ├── editar_departamento.html
+│   │   ├── listar_departamentos.html
+│   │   ├── adicionar_responsavel.html
+│   │   ├── editar_responsavel.html
+│   │   ├── listar_responsaveis.html
+│   │   ├── parametros_gerais.html
+│   ├── auditoria/
+│   │   ├── auditoria.html
+│   │   ├── dashboard.html
+│   │   ├── planejamento_auditorias.html
+│   │   ├── execucao_auditorias.html
+│   │   ├── documentacao_auditorias.html
+│   │   ├── relatorios_auditorias.html
+│   │   ├── historico_auditorias.html
+│   ├── relatorios/
+│   │   ├── relatorios.html
+│   │   ├── dashboard.html
+│   │   ├── auditorias_concluidas.html
+│   │   ├── auditorias_andamento.html
+│   │   ├── nao_conformidades.html
+│   │   ├── raint.html
+│   │   ├── conformidade_setor.html
+│   │   ├── conformidade_auditor.html
+│   │   ├── desempenho_auditores.html
+│   │   ├── desempenho_unidades.html
+│   │   ├── personalizados.html
+│   ├── planejamento/
+│   │   ├── planejamento.html
+│   │   ├── anual.html
+│   │   ├── agendar.html
+│   │   ├── auditorias_agendadas.html
+│   │   ├── editar_agendadas.html
+│   │   ├── gestao_recursos.html
+│   │   ├── criar_cronograma.html
+│   │   ├── editar_cronograma.html
+│   │   ├── visualizar_cronograma.html
+│   │   ├── paint.html
+│   │   ├── identificacao_riscos.html
+│   │   ├── avaliacao_riscos.html
+│   │   ├── mitigacao_riscos.html
+├── static/
+│   ├── css/
+│   │   ├── main.css
+│   │   ├── login_style.css
+│   │   ├── style.css
+│   │   ├── auditoria/
+│   │   │   ├── auditoria.css
+│   │   ├── configuracao/
+│   │   │   ├── configuracao.css
+│   │   ├── relatorios/
+│   │   │   ├── relatorios.css
+│   │   ├── planejamento/
+│   │   │   ├── planejamento.css
+│   ├── js/
+│   │   ├── auditoria.js
+│   │   ├── script.js
+│   │   ├── dropdown.js
